@@ -123,6 +123,11 @@ section {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.modal.fade.show {
+    display: block;
+    background: #000000cb;
+    backdrop-filter: blur(5px);
+}
 @media (max-width: 768px) {
 
 }

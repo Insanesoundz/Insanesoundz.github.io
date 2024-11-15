@@ -1,8 +1,5 @@
   /* Section styling for easy visual separation */
-  section {
-    height: 100vh;
-    padding-top: 60px;
-}
+
 .active-link {
     font-weight: bold;
     color: #007bff !important;
@@ -125,4 +122,11 @@ header .navbar {
 }
 div#offcanvasNavbar {
     background: #000000d4;
+}
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    
 }

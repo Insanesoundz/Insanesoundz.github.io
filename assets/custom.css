@@ -120,3 +120,7 @@ footer img {
 .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
 }
+header .navbar {
+    background: #70707017;
+    backdrop-filter: blur(4px);
+}

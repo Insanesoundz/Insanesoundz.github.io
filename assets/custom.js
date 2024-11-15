@@ -43,6 +43,11 @@ $(document).ready(function() {
      });
 
 
+     const productCard = $('.products-main a')[0].innerHTML;
 
+ // Append the same product card 6 times
+ for (let i = 0; i < 9; i++) {
+     $('.products-main').append(productCard);
+ }
 
 }); // Document Get Ready Close Here

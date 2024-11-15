@@ -109,10 +109,6 @@ footer .contact-content img {
     max-width: 210px;
 }
 
-footer img {
-    width: 44px;
-}
-
 .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
 }
@@ -128,5 +124,5 @@ section {
     margin-bottom: 50px;
 }
 @media (max-width: 768px) {
-    
+
 }

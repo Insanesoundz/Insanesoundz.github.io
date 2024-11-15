@@ -11,7 +11,6 @@
 
   /* Basic styling for video banner */
   .video-banner {
-    position: relative;
     overflow: hidden;
     width: 100%;
     height: 100vh;
@@ -123,4 +122,7 @@ footer img {
 header .navbar {
     background: #70707017;
     backdrop-filter: blur(4px);
+}
+div#offcanvasNavbar {
+    background: #000000d4;
 }

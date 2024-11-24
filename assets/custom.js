@@ -43,12 +43,12 @@ $(document).ready(function() {
      });
 
 
-     const productCard = $('.products-main a')[0].innerHTML;
+//      const productCard = $('.products-main a')[0].innerHTML;
 
- // Append the same product card 6 times
- for (let i = 0; i < 9; i++) {
-     $('.products-main').append(productCard);
- }
+//  // Append the same product card 6 times
+//  for (let i = 0; i < 9; i++) {
+//      $('.products-main').append(productCard);
+//  }
 
  $(document).on("click", "ul#offcanvasNavLinks a.nav-link", ()=>{
     $(`[data-bs-dismiss="offcanvas"]`).click();
@@ -71,5 +71,71 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+$(document).ready(function () {
+    // Fetch product data from the static JSON file
+    $.getJSON('assets/product.json', function (data) {
+        const productLinksContainer = $('#productLinks');
+
+        // Dynamically populate main categories
+        $.each(data, function (index, category) {
+            const categoryLink = $('<a>', {
+                href: '#',
+                class: 'col product-wrap text-decoration-none mb-3',
+                'data-bs-toggle': 'modal',
+                'data-bs-target': '#productModal',
+                'data-category-id': category.id  // Store category id for reference
+            });
+
+            categoryLink.html(`
+                <div class="card bg-transparent">
+                    <img src="${category.image}" class="card-img-top w-100 img-fluid rounded-4" alt="${category.category}">
+                    <div class="card-body">
+                        <h5 class="card-title text-white text-center fs-6 fw-medium">${category.category}</h5>
+                    </div>
+                </div>
+            `);
+
+            productLinksContainer.append(categoryLink);
+        });
+
+        // Set up event listeners for each category to update the modal
+        $('.product-wrap').on('click', function () {
+            const categoryId = $(this).data('category-id');
+            const category = data.find(function (c) {
+                return c.id === categoryId; // Find the category by ID
+            });
+
+            // Update the modal title with category name
+            $('#productModalLabel').text(category.category);
+
+            // Dynamically load subcategories into the modal content
+            const modalContent = $('#productModalContent #productLinks');
+            modalContent.empty();  // Clear any previous content
+
+            $.each(category.subcategories, function (index, subcategory) {
+                const subcategoryCard = $('<a>', {
+                    href: subcategory.pageLink,  // Link to the subcategory page
+                    class: 'col product-wrap text-decoration-none mb-3'
+                });
+
+                subcategoryCard.html(`
+                    <div class="card bg-transparent">
+                        <img src="${subcategory.image}" class="card-img-top w-100 img-fluid rounded-4" alt="${subcategory.name}">
+                        <div class="card-body">
+                            <h5 class="card-title text-white text-center fs-6 fw-medium">${subcategory.name}</h5>
+                            <p class="text-white text-center d-none">${subcategory.description}</p>
+                        </div>
+                    </div>
+                `);
+
+                modalContent.append(subcategoryCard);
+            });
+        });
+    })
+    .fail(function (error) {
+        console.error('Error loading product data:', error);
+    });
+});
 
 }); // Document Get Ready Close Here
+

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "category": "Sound System Installation",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "Car Audio Systems",
+                "description": "High-quality audio systems for your car.",
+                "pageLink": "car-audio-systems.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Speakers and Amplifiers",
+                "description": "Speakers and amplifiers for enhanced sound.",
+                "pageLink": "speakers-amplifiers.html",
+                "image": "assets/images/product-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Interior Ambient Lights",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "LED Strips",
+                "description": "Flexible LED strips for interior lighting.",
+                "pageLink": "led-strips.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Glow Effects",
+                "description": "Glow effects for creating a unique atmosphere.",
+                "pageLink": "glow-effects.html",
+                "image": "assets/images/product-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Roof Star Lights",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "Starry Night Effect",
+                "description": "Create a starry night effect inside your car.",
+                "pageLink": "starry-night.html",
+                "image": "assets/images/product-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Dashcams and Installation",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "Basic Dashcams",
+                "description": "Entry-level dashcams for basic recording.",
+                "pageLink": "basic-dashcams.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Premium Dashcams",
+                "description": "High-end dashcams with advanced features.",
+                "pageLink": "premium-dashcams.html",
+                "image": "assets/images/product-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Underglow Lights",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "Wheel Lights",
+                "description": "Lights that illuminate your wheels.",
+                "pageLink": "wheel-lights.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Full Underglow Kit",
+                "description": "Complete underglow lighting kit for your vehicle.",
+                "pageLink": "underglow-kit.html",
+                "image": "assets/images/product-1.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Tinting and Wrapping",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "Window Tinting",
+                "description": "Protect and darken your windows.",
+                "pageLink": "window-tinting.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Car Wrapping",
+                "description": "Full car wraps with custom designs.",
+                "pageLink": "car-wrapping.html",
+                "image": "assets/images/product-1.jpg"
+            }
+        ]
+    }
+]

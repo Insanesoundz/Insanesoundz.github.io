@@ -82,16 +82,9 @@
     <section id="products" class="">
         <div class="container">
             <h2 class="text-center text-white">Our Products</h2>
-            <div class="row row-cols-2 row-cols-xl-3 row-cols-xxl-5 products-main">                
-                <a href="#" class="col product-wrap text-decoration-none mb-3" data-bs-toggle="modal" data-bs-target="#productModal">
-                    <div class="card bg-transparent">
-                    <img src="assets/images/product-1.jpg" class="card-img-top w-100 img-fluid rounded-4" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title text-white text-center">Product 1</h5>  
-                    </div>
-                    </div>
-                </a>                
-            </div>
+            <div class="row row-cols-2 row-cols-xl-3 row-cols-xxl-6 products-main" id="productLinks">
+                <!-- Main Categories will be dynamically populated here -->
+            </div>            
         </div>
     </section>
     
@@ -197,24 +190,19 @@
     <div class="modal-dialog modal-xl modal-dialog-centered border rounded-4">
         <div class="modal-content bg-transparent text-white">
             <div class="modal-header">
-                <h5 class="modal-title" id="productModalLabel">Product 1</h5>
-                <button type="button" class="btn-close bg-transparent opacity-100 pt-0" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-times text-white pt-0" aria-hidden="true" style="font-size: 22px;"></i></button>
+                <h5 class="modal-title" id="productModalLabel">Category Name</h5>
+                <button type="button" class="btn-close bg-transparent opacity-100 pt-0" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-times text-white pt-0" aria-hidden="true" style="font-size: 22px;"></i>
+                </button>
             </div>
-            <div class="modal-body">
-                <div class="row row-cols-2 row-cols-xl-3 row-cols-xxl-5 products-main">                
-                    <a href="#" class="col product-wrap text-decoration-none mb-3" data-bs-toggle="modal" data-bs-target="#productModal">
-                        <div class="card bg-transparent">
-                        <img src="assets/images/product-1.jpg" class="card-img-top w-100 img-fluid rounded-4" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title text-white text-center">Product 1</h5>  
-                        </div>
-                        </div>
-                    </a>                
-                </div>
-            </div>            
+            <div class="modal-body" id="productModalContent">
+                <div class="row row-cols-2 row-cols-xl-3 row-cols-xxl-6 products-main" id="productLinks">
+                <!-- Subcategories will be dynamically loaded here -->
+            </div>
+            </div>
         </div>
     </div>
-</div>
+</div>  
 
      
 

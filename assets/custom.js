@@ -62,7 +62,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
         
         // Scroll with offset
         const headerHeight = document.querySelector('.navbar').offsetHeight;
-        const targetPosition = targetSection.offsetTop - headerHeight;
+        const targetPosition = targetSection.offsetTop - (headerHeight + 20);
         
         window.scrollTo({
             top: targetPosition,

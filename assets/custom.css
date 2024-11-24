@@ -132,3 +132,10 @@ section {
 @media (max-width: 768px) {
 
 }
+.products-main .product-wrap {
+    transition: transform 0.3s ease-in;
+}
+
+.products-main .product-wrap:hover {
+    transform: scale(1.06);
+}

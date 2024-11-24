@@ -50,4 +50,8 @@ $(document).ready(function() {
      $('.products-main').append(productCard);
  }
 
+ $(document).on("click", "ul#offcanvasNavLinks a.nav-link", ()=>{
+    $(`[data-bs-dismiss="offcanvas"]`).click();
+});
+
 }); // Document Get Ready Close Here

@@ -145,3 +145,11 @@ section {
 .text-justify{
     text-align: justify !important;
 }
+.WhatsAppIcon {
+    position: fixed;
+    bottom: 22px;
+    right: 15px;
+    padding: 5px 9px;
+    background: white;
+    border-radius: 11px;
+}

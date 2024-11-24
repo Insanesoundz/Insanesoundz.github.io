@@ -54,4 +54,22 @@ $(document).ready(function() {
     $(`[data-bs-dismiss="offcanvas"]`).click();
 });
 
+document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+        
+        // Scroll with offset
+        const headerHeight = document.querySelector('.navbar').offsetHeight;
+        const targetPosition = targetSection.offsetTop - headerHeight;
+        
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });
+    });
+});
+
+
 }); // Document Get Ready Close Here

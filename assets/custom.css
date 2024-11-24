@@ -139,3 +139,6 @@ section {
 .products-main .product-wrap:hover {
     transform: scale(1.06);
 }
+section {
+    scroll-margin-top: 70px; /* Adjust based on your sticky header height */
+}

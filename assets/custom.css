@@ -142,3 +142,6 @@ section {
 section {
     scroll-margin-top: 70px; /* Adjust based on your sticky header height */
 }
+.text-justify{
+    text-align: justify !important;
+}

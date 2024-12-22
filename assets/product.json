@@ -7,25 +7,25 @@
             {
                 "name": "Amplifer Installation",
                 "description": "High-quality audio systems for your car.",
-                "pageLink": "/products/car-audio-systems/amplifer-installation.html",
+                "pageLink": "products/car-audio-systems/amplifer-installation.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Headunit Upgrade",
                 "description": "Speakers and amplifiers for enhanced sound.",
-                "pageLink": "/products/car-audio-systems/headunit-upgrade.html",
+                "pageLink": "products/car-audio-systems/headunit-upgrade.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Speakers Upgrade",
                 "description": "Speakers and amplifiers for enhanced sound.",
-                "pageLink": "/products/car-audio-systems/speakers-upgrade.html",
+                "pageLink": "products/car-audio-systems/speakers-upgrade.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Subwoofer Upgrade",
                 "description": "Speakers and amplifiers for enhanced sound.",
-                "pageLink": "/products/car-audio-systems/subwoofer-upgrade.html",
+                "pageLink": "products/car-audio-systems/subwoofer-upgrade.html",
                 "image": "assets/images/product-1.jpg"
             }
         ]
@@ -38,31 +38,31 @@
             {
                 "name": "Flow Series",
                 "description": "Flexible LED strips for interior lighting.",
-                "pageLink": "/products/interior-lights/flow-series.html",
+                "pageLink": "products/interior-lights/flow-series.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Non Flow Series",
                 "description": "Glow effects for creating a unique atmosphere.",
-                "pageLink": "/products/interior-lights/non-flow-series.html",
+                "pageLink": "products/interior-lights/non-flow-series.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Optical Pipe Ambients",
                 "description": "Glow effects for creating a unique atmosphere.",
-                "pageLink": "/products/interior-lights/optical-pipe-ambients.html",
+                "pageLink": "products/interior-lights/optical-pipe-ambients.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Other Modification",
                 "description": "Glow effects for creating a unique atmosphere.",
-                "pageLink": "/products/interior-lights/other-modification.html",
+                "pageLink": "products/interior-lights/other-modification.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
                 "name": "Roof Star Lights",
                 "description": "Glow effects for creating a unique atmosphere.",
-                "pageLink": "/products/interior-lights/roof-star-lights.html",
+                "pageLink": "products/interior-lights/roof-star-lights.html",
                 "image": "assets/images/product-1.jpg"
             }
         ]

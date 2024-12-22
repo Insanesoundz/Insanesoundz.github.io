@@ -1,70 +1,95 @@
 [
     {
         "id": 1,
-        "category": "Sound System Installation",
+        "category": "Car Audio Systems",
         "image": "assets/images/product-1.jpg",
         "subcategories": [
             {
-                "name": "Car Audio Systems",
+                "name": "Amplifer Installation",
                 "description": "High-quality audio systems for your car.",
-                "pageLink": "car-audio-systems.html",
+                "pageLink": "/products/car-audio-systems/amplifer-installation.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
-                "name": "Speakers and Amplifiers",
+                "name": "Headunit Upgrade",
                 "description": "Speakers and amplifiers for enhanced sound.",
-                "pageLink": "speakers-amplifiers.html",
+                "pageLink": "/products/car-audio-systems/headunit-upgrade.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Speakers Upgrade",
+                "description": "Speakers and amplifiers for enhanced sound.",
+                "pageLink": "/products/car-audio-systems/speakers-upgrade.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Subwoofer Upgrade",
+                "description": "Speakers and amplifiers for enhanced sound.",
+                "pageLink": "/products/car-audio-systems/subwoofer-upgrade.html",
                 "image": "assets/images/product-1.jpg"
             }
         ]
     },
     {
         "id": 2,
-        "category": "Interior Ambient Lights",
+        "category": "Interior Lights",
         "image": "assets/images/product-1.jpg",
         "subcategories": [
             {
-                "name": "LED Strips",
+                "name": "Flow Series",
                 "description": "Flexible LED strips for interior lighting.",
-                "pageLink": "led-strips.html",
+                "pageLink": "/products/interior-lights/flow-series.html",
                 "image": "assets/images/product-1.jpg"
             },
             {
-                "name": "Glow Effects",
+                "name": "Non Flow Series",
                 "description": "Glow effects for creating a unique atmosphere.",
-                "pageLink": "glow-effects.html",
+                "pageLink": "/products/interior-lights/non-flow-series.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Optical Pipe Ambients",
+                "description": "Glow effects for creating a unique atmosphere.",
+                "pageLink": "/products/interior-lights/optical-pipe-ambients.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Other Modification",
+                "description": "Glow effects for creating a unique atmosphere.",
+                "pageLink": "/products/interior-lights/other-modification.html",
+                "image": "assets/images/product-1.jpg"
+            },
+            {
+                "name": "Roof Star Lights",
+                "description": "Glow effects for creating a unique atmosphere.",
+                "pageLink": "/products/interior-lights/roof-star-lights.html",
                 "image": "assets/images/product-1.jpg"
             }
         ]
     },
+    
     {
         "id": 3,
-        "category": "Roof Star Lights",
-        "image": "assets/images/product-1.jpg",
-        "subcategories": [
-            {
-                "name": "Starry Night Effect",
-                "description": "Create a starry night effect inside your car.",
-                "pageLink": "starry-night.html",
-                "image": "assets/images/product-1.jpg"
-            }
-        ]
-    },
-    {
-        "id": 4,
         "category": "Dashcams and Installation",
         "image": "assets/images/product-1.jpg",
         "subcategories": [
             {
-                "name": "Basic Dashcams",
+                "name": "Dashcams",
                 "description": "Entry-level dashcams for basic recording.",
-                "pageLink": "basic-dashcams.html",
+                "pageLink": "products/dashcams/dashcams.html",
                 "image": "assets/images/product-1.jpg"
-            },
+            }            
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Tinting & Wrapping",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
             {
-                "name": "Premium Dashcams",
-                "description": "High-end dashcams with advanced features.",
-                "pageLink": "premium-dashcams.html",
+                "name": "Tinting & Wrapping",
+                "description": "Create a starry night effect inside your car.",
+                "pageLink": "products\tinting-&-wrapping/tinting-&-wrapping.html",
                 "image": "assets/images/product-1.jpg"
             }
         ]

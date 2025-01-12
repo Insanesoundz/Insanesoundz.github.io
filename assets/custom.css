@@ -153,3 +153,6 @@ section {
     background: white;
     border-radius: 11px;
 }
+section#image-gallery .col a img {
+    max-height: 191px;
+}

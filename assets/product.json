@@ -2,19 +2,19 @@
     {
         "id": 1,
         "category": "Car Audio Systems",
-        "image": "assets/images/product-1.jpg",
+        "image": "assets/images/01CarAudio/subwooferUpgrade/subwoofer(1).jpg",
         "subcategories": [
             {
                 "name": "Amplifer Installation",
                 "description": "High-quality audio systems for your car.",
                 "pageLink": "products/car-audio-systems/amplifer-installation.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/01CarAudio/ampliferInstallation/a(3).jpg"
             },
             {
                 "name": "Headunit Upgrade",
                 "description": "Speakers and amplifiers for enhanced sound.",
                 "pageLink": "products/car-audio-systems/headunit-upgrade.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/01CarAudio/headunitUpgrade/headunit1.png"
             },
             {
                 "name": "Speakers Upgrade",
@@ -26,14 +26,14 @@
                 "name": "Subwoofer Upgrade",
                 "description": "Speakers and amplifiers for enhanced sound.",
                 "pageLink": "products/car-audio-systems/subwoofer-upgrade.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/01CarAudio/subwooferUpgrade/subwoofer(5).jpg"
             }
         ]
     },
     {
         "id": 2,
         "category": "Interior Lights",
-        "image": "assets/images/product-1.jpg",
+        "image": "assets/images/04RoofStarLights/1.jpg",
         "subcategories": [
             {
                 "name": "Flow Series",
@@ -63,7 +63,7 @@
                 "name": "Roof Star Lights",
                 "description": "Glow effects for creating a unique atmosphere.",
                 "pageLink": "products/interior-lights/roof-star-lights.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/04RoofStarLights/2.jpg"
             }
         ]
     },
@@ -71,26 +71,26 @@
     {
         "id": 3,
         "category": "Dashcams and Installation",
-        "image": "assets/images/product-1.jpg",
+        "image": "assets/images/03DashcamsAndInstallation/2.png",
         "subcategories": [
             {
                 "name": "Dashcams",
                 "description": "Entry-level dashcams for basic recording.",
                 "pageLink": "products/dashcams/dashcams.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/03DashcamsAndInstallation/1.png"
             }            
         ]
     },
     {
         "id": 4,
         "category": "Underglow Lights",
-        "image": "assets/images/product-1.jpg",
+        "image": "assets/images/05UnderGlow/2.png",
         "subcategories": [
             {
                 "name": "Underglow Lights",
                 "description": "Lights that illuminate your wheels.",
                 "pageLink": "products/underglow-lights/underglow-lights.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/05UnderGlow/1.webp"
             }
             
         ]
@@ -98,13 +98,13 @@
     {
         "id": 5,
         "category": "Tinting & Wrapping",
-        "image": "assets/images/product-1.jpg",
+        "image": "assets/images/06Tinting&Wrapping/3.jpg",
         "subcategories": [
             {
                 "name": "Tinting & Wrapping",
                 "description": "Create a starry night effect inside your car.",
                 "pageLink": "products/tinting-&-wrapping/tinting-&-wrapping.html",
-                "image": "assets/images/product-1.jpg"
+                "image": "assets/images/06Tinting&Wrapping/1.jpg"
             }
         ]
     }

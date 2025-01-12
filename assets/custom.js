@@ -88,7 +88,7 @@ $(document).ready(function () {
 
             categoryLink.html(`
                 <div class="card bg-transparent">
-                    <img src="${category.image}" class="card-img-top w-100 img-fluid rounded-4" alt="${category.category}">
+                    <img src="${category.image}" class="card-img-top w-100 img-fluid rounded-4" alt="${category.category}" style="min-height:230px ">
                     <div class="card-body pb-0">
                         <h5 class="card-title text-white text-center fs-6 fw-medium mb-0">${category.category}</h5>
                     </div>
@@ -120,7 +120,7 @@ $(document).ready(function () {
 
                 subcategoryCard.html(`
                     <div class="card bg-transparent">
-                        <img src="${subcategory.image}" class="card-img-top w-100 img-fluid rounded-4" alt="${subcategory.name}">
+                        <img src="${subcategory.image}" class="card-img-top w-100 img-fluid rounded-4" style="min-height:170px;" alt="${subcategory.name}">
                         <div class="card-body pb-0">
                             <h5 class="card-title text-white text-center fs-6 fw-medium mb-0">${subcategory.name}</h5>
                             <p class="text-white text-center d-none">${subcategory.description}</p>

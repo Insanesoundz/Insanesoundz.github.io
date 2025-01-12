@@ -83,6 +83,20 @@
     },
     {
         "id": 4,
+        "category": "Underglow Lights",
+        "image": "assets/images/product-1.jpg",
+        "subcategories": [
+            {
+                "name": "Underglow Lights",
+                "description": "Lights that illuminate your wheels.",
+                "pageLink": "products/underglow-lights/underglow-lights.html",
+                "image": "assets/images/product-1.jpg"
+            }
+            
+        ]
+    },
+    {
+        "id": 5,
         "category": "Tinting & Wrapping",
         "image": "assets/images/product-1.jpg",
         "subcategories": [
@@ -93,43 +107,6 @@
                 "image": "assets/images/product-1.jpg"
             }
         ]
-    },
-    {
-        "id": 5,
-        "category": "Underglow Lights",
-        "image": "assets/images/product-1.jpg",
-        "subcategories": [
-            {
-                "name": "Wheel Lights",
-                "description": "Lights that illuminate your wheels.",
-                "pageLink": "wheel-lights.html",
-                "image": "assets/images/product-1.jpg"
-            },
-            {
-                "name": "Full Underglow Kit",
-                "description": "Complete underglow lighting kit for your vehicle.",
-                "pageLink": "underglow-kit.html",
-                "image": "assets/images/product-1.jpg"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "category": "Tinting and Wrapping",
-        "image": "assets/images/product-1.jpg",
-        "subcategories": [
-            {
-                "name": "Window Tinting",
-                "description": "Protect and darken your windows.",
-                "pageLink": "window-tinting.html",
-                "image": "assets/images/product-1.jpg"
-            },
-            {
-                "name": "Car Wrapping",
-                "description": "Full car wraps with custom designs.",
-                "pageLink": "car-wrapping.html",
-                "image": "assets/images/product-1.jpg"
-            }
-        ]
     }
+        
 ]
